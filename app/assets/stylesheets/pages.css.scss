@@ -86,7 +86,7 @@
   }
   
   .social_media li a {
-    display:block;
+    display:inline-block;
     height:24px;
     width:24px;
   }
@@ -163,7 +163,12 @@
   }
   
   .home .jumbotron {
-    background:url(https://portfolio-rails-2633.herokuapp.com/assets/home-db103bf75e724b89102c607792424914.jpg) center center;
+  	background:url(http://i725.photobucket.com/albums/ww251/animedragon33/Elements/ForestClearing.jpg) center center;
+    /* 
+    http://i364.photobucket.com/albums/oo81/mrhyde82201/Forest_Waterfall_xl.jpg
+				https://portfolio-rails-2633.herokuapp.com/assets/home-db103bf75e724b89102c607792424914.jpg
+				https://d6ff1xmuve0sx.cloudfront.net/nc-3.0.2739-b3667c6a/static/error_handler/images/apple.jpg
+				http://i592.photobucket.com/albums/tt7/Sara_Shadow/Nature/forest.jpg */
     background-size:cover;
     min-height:600px;
     width:100%;
