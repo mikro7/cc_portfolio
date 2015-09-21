@@ -168,7 +168,8 @@
     http://i364.photobucket.com/albums/oo81/mrhyde82201/Forest_Waterfall_xl.jpg
 				https://portfolio-rails-2633.herokuapp.com/assets/home-db103bf75e724b89102c607792424914.jpg
 				https://d6ff1xmuve0sx.cloudfront.net/nc-3.0.2739-b3667c6a/static/error_handler/images/apple.jpg
-				http://i592.photobucket.com/albums/tt7/Sara_Shadow/Nature/forest.jpg */
+				http://i592.photobucket.com/albums/tt7/Sara_Shadow/Nature/forest.jpg 
+          http://i378.photobucket.com/albums/oo230/ceekayfun2008/Grass.jpg */
     background-size:cover;
     min-height:600px;
     width:100%;
@@ -279,6 +280,29 @@
  .right {
 	 float:right;
  }
+ 
+ .banner { 
+   position: relative; 
+   overflow: auto; 
+ }
+ 
+ .banner li { 
+   list-style: 
+   none; 
+ }
+
+.banner ul li {
+	float: left; 
+}
+
+.video-section {
+	position:relative;
+  width:100%;
+}
+
+video {
+  object-fit: contain;
+}
  
  @media screen and (max-width: 800px) {
    .container {
